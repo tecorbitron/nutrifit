@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav className='max-w-screen-xl m-auto px-4 relative w-full '>
-      <nav className={`left-0 md:left-3 w-full md:w-fit text-black bg-white shadow md:rounded-full px-4 py-2 z-50 transition-transform duration-300 ${isScrolledDown ? 'md:fixed' : 'absolute'} ${isVisible ? 'translate-y-0 md:translate-y-4' : '-translate-y-full'}`}>
+      <nav className={`left-0 md:left-auto w-full md:w-fit text-black bg-white shadow md:rounded-full px-4 py-2 z-50 transition-transform duration-300 ${isScrolledDown ? 'md:fixed' : 'absolute'} ${isVisible ? 'translate-y-0 md:translate-y-4' : '-translate-y-full'}`}>
         <div className=" ">
           <div className="flex justify-between items-center h-fit space-x-8">
             <div className="flex-shrink-0">

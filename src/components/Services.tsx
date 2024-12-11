@@ -36,7 +36,7 @@ const Services = () => {
 
 
                 {/* 3rd card  */}
-                <div className="flex flex-col justify-around md:w-[48%] h-80 bg-gradient-to-b from-transparent p-6 to-black/10 bg-gray-600/5 rounded-[40px]">
+                <div className="flex flex-col justify-around w-full md:w-[48%] h-80 bg-gradient-to-b from-transparent p-6 to-black/10 bg-gray-600/5 rounded-[40px]">
                     <Image src={serviceImg3} alt='service-image' width={100} height={100} quality={100} className='' />
                     <div className="flex justify-between items-end">
                         <h3 className='text-2xl md:text-3xl w-48'>Discover our supplement products</h3>

@@ -1,3 +1,5 @@
+import AboutSection from "@/components/AboutSection";
+import AboutTitleSection from "@/components/AboutTitleSection";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -9,6 +11,8 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Services />
+      <AboutSection />
+      <AboutTitleSection />
     </section>
   );
 }
