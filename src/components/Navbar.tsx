@@ -58,7 +58,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
-              <Link href="/about" className=" hover:text-gray-300">About Us</Link>
+              <Link href="/about-us" className=" hover:text-gray-300">About Us</Link>
               <Link href="/services" className=" hover:text-gray-300">Services</Link>
               <Link href="/booking" className=" hover:text-gray-300">Booking</Link>
             </div>

@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className='flex flex-col md:flex-row justify-between min-h-screen text-customBlack max-w-screen-xl mx-auto px-4 gap-10 md:gap-0'>
             {/* Left content  */}
             <div className="flex flex-col justify-center w-full">
-                <h1 className='text-5xl mt-20 md:text-8xl font-medium tracking-widest'>We Take Care About Your <span className='text-primary'>Health</span></h1>
+                <h1 className='text-5xl mt-20 md:text-8xl font-medium tracking-widest'>We Take Care About Your <span className='text-primaryColour'>Health</span></h1>
                 <p className='my-8 font-medium max-w-xl'>Make sure your daily nutrition is sufficient. Consult your problem about nutrition with us.</p>
 
                 <div className="flex justify-between md:justify-start md:gap-8">
@@ -28,11 +28,11 @@ const HeroSection = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-4 mt-16">
-                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primary hover:text-primary transition-all ease-in-out'>Nutrition</div>
-                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primary hover:text-primary transition-all ease-in-out'>Supplements</div>
-                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primary hover:text-primary transition-all ease-in-out'>Vitamins</div>
-                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primary hover:text-primary transition-all ease-in-out'>Healthy Food</div>
-                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primary hover:text-primary transition-all ease-in-out'>Consultation</div>
+                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primaryColour hover:text-primaryColour transition-all ease-in-out'>Nutrition</div>
+                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primaryColour hover:text-primaryColour transition-all ease-in-out'>Supplements</div>
+                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primaryColour hover:text-primaryColour transition-all ease-in-out'>Vitamins</div>
+                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primaryColour hover:text-primaryColour transition-all ease-in-out'>Healthy Food</div>
+                    <div className='py-4 px-8 border-customBlack border w-fit text-customBlack rounded-full hover:border-primaryColour hover:text-primaryColour transition-all ease-in-out'>Consultation</div>
                 </div>
             </div>
 
@@ -43,8 +43,8 @@ const HeroSection = () => {
 
                 {/* image top right button  */}
                 <div className="absolute top-0 right-0 bg-white w-40 h-40 flex justify-center items-center  rounded-bl-[80px] ">
-                    <div className="w-32 h-32 rounded-full bg-primary flex justify-center items-center">
-                        <ArrowRight className='w-14 h-14 p-3 bg-primary text-white border-white border-2 rounded-full' />
+                    <div className="w-32 h-32 rounded-full bg-primaryColour flex justify-center items-center">
+                        <ArrowRight className='w-14 h-14 p-3 bg-primaryColour text-white border-white border-2 rounded-full' />
                     </div>
                 </div>
 
