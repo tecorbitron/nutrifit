@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import bgImage from "@/assets/Nutrifit-About-Image.webp";
 
 const AboutSection = () => {

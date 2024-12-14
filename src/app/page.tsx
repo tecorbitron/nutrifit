@@ -1,11 +1,10 @@
-import AboutSection from "@/components/AboutSection";
-import AboutTitleSection from "@/components/AboutTitleSection";
+import AboutSection from "@/components/home/AboutSection";
+import AboutTitleSection from "@/components/home/AboutTitleSection";
 import ConsultBanner from "@/components/ConsultBanner";
 import FAQ from "@/components/FAQ";
-import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
-import HighNutrition from "@/components/HighNutrition";
-import Services from "@/components/Services";
+import HeroSection from "@/components/home/HeroSection";
+import HighNutrition from "@/components/home/HighNutrition";
+import Services from "@/components/home/Services";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <HighNutrition />
       <FAQ />
       <ConsultBanner />
-      <Footer />
     </section>
   );
 }
