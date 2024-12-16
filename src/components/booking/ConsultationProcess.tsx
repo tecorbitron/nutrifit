@@ -1,6 +1,4 @@
 import React from 'react'
-import img1 from '@/assets/About-Holistic-Image.webp'
-import Image from 'next/image'
 
 const ConsultationProcess = () => {
   return (
@@ -33,7 +31,7 @@ const ConsultationProcess = () => {
             <span className='text-2xl w-10 h-10 bg-gray-300 flex items-center justify-center rounded-xl'>1</span>
             <h3 className='text-xl md:text-3xl font-medium'>Initial Assessment</h3>
           </div>
-          <p className='text-lg'>In this step, the nutritionist conducts an initial assessment to understand the client's health goals,</p>
+          <p className='text-lg'>In this step, the nutritionist conducts an initial assessment to understand the client&apos;s health goals,</p>
         </div>
         <div className="w-full bg-gray-100 p-8 rounded-[40px] mb-4">
           <div className="flex gap-4 items-center mb-3">

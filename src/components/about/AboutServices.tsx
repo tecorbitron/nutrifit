@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import serviceImg1 from '@/assets/About-Services2.webp'
 import serviceImg2 from '@/assets/About-Services.webp'

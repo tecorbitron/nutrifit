@@ -1,4 +1,3 @@
-import { ArrowUpLeft } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 import heroImg from '@/assets/Booking-Header-image.webp'

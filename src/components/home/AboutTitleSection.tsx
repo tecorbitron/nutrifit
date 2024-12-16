@@ -8,7 +8,7 @@ const AboutTitleSection = () => {
   return (
     <section className='py-20 px-4 text-center'>
       <p className='relative text-5xl md:text-8xl text-customBlack max-w-4xl m-auto font-medium leading-tight tracking-wider mb-6'>
-        we are dedicated to improving the quality of people's nutrition
+        we are dedicated to improving the quality of people&apos;s nutrition
         <Image className='absolute top-0 md:top-10 left-32' src={image1} height={60} width={120} alt='about image' />
         <Image className='absolute bottom-10 md:left-20 rotate-90' src={image2} height={60} width={120} alt='about image' />
         <Image className='absolute md:bottom-40 right-2 rounded-2xl rotate-45' src={image3} height={60} width={120} alt='about image' />
